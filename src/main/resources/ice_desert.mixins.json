@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.glyceryl6.ice_desert.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBiome",
+    "MixinLevel",
+    "MixinPlayerBase"
+  ],
+  "server": [
+  ],
+  "client": [
+    "MixinInGame",
+    "MixinMinecraft"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
