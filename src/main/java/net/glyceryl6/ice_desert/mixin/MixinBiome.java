@@ -1,17 +1,13 @@
 package net.glyceryl6.ice_desert.mixin;
 
 import net.minecraft.level.biome.Biome;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
 
 import static net.minecraft.level.biome.Biome.*;
 
 @Mixin(Biome.class)
 public class MixinBiome {
-
-    @Shadow @Final public static Biome ICE_DESERT;
 
     /**
      * @author glyceryl
